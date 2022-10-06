@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    font-weight: 700;
+    padding: 1rem 2rem;
+    background: #ac1313;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid #ac1313;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #ac1313;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 58px;
+    color: #000000;
+}
+
+p {
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 26px;
+    color: #6c6c6c;
+}
+
+section {
+    padding: 10rem 0;
+    border-bottom: 1px solid #ebebeb;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-title {
+    color: #d77474;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.category-title {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+}
+
+/* ================== NAVBAR =========================  */
+
+.navbar {
+    justify-content: space-between;
+}
+
+.navbar-menu li a {
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6c6c6c;
+}
+
+.cart {
+    text-transform: capitalize;
+}
+
+.navbar-menu li img {
+    margin-right: 10px;
+}
+
+.header {
+    background-image: url("../img/bg-img.png");
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+}
+.header-description {
+    display: flex;
+    align-items: center;
+}
+
+.left-description {
+    width: 50%;
+}
+
+.left-description h1 {
+    padding-right: 2rem;
+}
+
+.paragraf-description {
+    margin: 1rem 0 3rem 0;
+}
+
+.right-description {
+    width: 60%;
+}
+
+.right-description img {
+    width: 100%;
+}
+
+/* ================== PRODUCT CATEGORIES ===============  */
+
+.header-title {
+    text-align: center;
+}
+
+.product-categories .product-cards {
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-between;
+}
+
+.product-description {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+    margin-top: 5rem;
+}
+
+.product-description h4 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 2rem;
+    padding-right: 10rem;
+}
+
+.product-description p {
+    font-size: 1rem;
+}
+
+/* =================== VASE CATEGORIES ================== */
+
+.vase-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+    align-items: center;
+}
+
+.vase-container .vase-img {
+    width: 100%;
+}
+
+.vase-container .vase-img img {
+    width: 100%;
+}
+
+.vase-container .vase-description h4 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 34px;
+    color: #000000;
+}
+
+.vase-container .vase-description p {
+    margin: 1rem 0;
+}
+
+.vase-container .vase-description h5 a {
+    color: #000;
+}
+
+/* ======================== ONLINE STORE CARDS =======================  */
+
+.online-store__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.online-store__cards .online-store__card {
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 1rem;
+}
+
+.online-store__cards .online-store__card .store-img {
+    width: 100%;
+}
+
+.online-store__cards .online-store__card .store-img img {
+    width: 100%;
+}
+
+.online-store__cards .online-store__card h5 {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+    color: #000000;
+}
+
+.online__store-categories .online-store__btn {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+/* ======================= START SHOPPING =====================  */
+
+.start-shopping {
+    width: 100%;
+    background-image: url("../img/start-shopping-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.start-shopping__description {
+    width: 50%;
+}
+
+.start-shopping__description .top-title {
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 10px;
+}
+
+.start-shopping__description h3 {
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 1rem;
+}
+
+.start-shopping__description p {
+    font-weight: 500;
+    padding-right: 8rem;
+    line-height: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.start-shopping__description p span a {
+    color: #ac1313;
+}
+
+/* ====================== FOOTER ===================  */
+
+.footer {
+    background: rgba(219, 219, 219, 0.1);
+    padding-top: 8rem;
+    text-align: center;
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    margin: 5rem 0;
+}
+
+.contact-wrapper .contact-card h4 {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.contact-wrapper .contact-card p {
+    margin-top: 1rem;
+}
+
+.footer-container {
+    padding: 2rem 0;
+    border-top: 2px solid #ebebeb;
+}
+
+.footer-container span {
+    color: #000;
+}
